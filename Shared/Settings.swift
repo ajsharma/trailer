@@ -559,7 +559,7 @@ struct Settings {
         set { set("NOTIFY_ON_STATUS_UPDATES", newValue) }
     }
 
-	static let notifyOnStatusUpdatesForAllPrsHelp = "Notificaitons for status items are sent only for your own and particiapted items by default. Select this to receive status update notifications for the items in the 'all' section too."
+	static let notifyOnStatusUpdatesForAllPrsHelp = "Notifications for status items are sent only for your own and participated items by default. Select this to receive status update notifications for the items in the 'all' section too."
     static var notifyOnStatusUpdatesForAllPrs: Bool {
         get { return get("NOTIFY_ON_STATUS_UPDATES_ALL") as? Bool ?? false }
         set { set("NOTIFY_ON_STATUS_UPDATES_ALL", newValue) }
